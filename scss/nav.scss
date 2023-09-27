@@ -1,0 +1,19 @@
+nav{
+    height: 50px;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+
+    a:hover{
+        color:  #25eb28;
+        transition: 0.5s;
+    }
+
+}
