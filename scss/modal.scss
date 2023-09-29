@@ -8,6 +8,13 @@
     justify-content: center;
     align-items: center;
 
+    .close{
+        visibility: visible;
+    }
+
+    .visible{
+        visibility: visible;
+    }
     #model-click{
     position: absolute;
     background-color: rgba(128,128,128,0.7);
@@ -21,19 +28,43 @@
         min-height: 300px;
         min-width: 300px;
         max-width: 60%;
-        background-color: white;
+        background-color: #6ba7bf;
         border-radius: 15px;
         z-index: 99;
         padding: 10px;
         
-
+        .header{
+            font-family: Albertbold;
+            color: #181818;
+            font-size: larger;
+        }
+        .labels{
+            font-family: Albertnorm;
+        }
+        .box{
+            width: 80%;
+            height: 25px;
+        }
+        #logIn{
+            width: 35%;
+            background-color: #66c0e3;
+            border: none;
+            height: 40px;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-family: Albertnorm;
+            cursor: pointer;
+        }
+        #logIn:hover{
+            background-color: #025374;
+        }
         .close-button{
             position: absolute;
             top: 0;
             padding: 10px;
             cursor: pointer;
             right: 0;
-            background-color: red;
+            
             
         }
 
@@ -48,3 +79,4 @@
         }
     }
 }
+
