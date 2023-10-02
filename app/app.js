@@ -6,7 +6,7 @@ logInBtn.addEventListener("click", logIn)
 
 async function logIn(){
     console.log("signed in")
-    location.replace("../loggedIn.html")
+    location.replace("loggedIn")
 }
 
 
